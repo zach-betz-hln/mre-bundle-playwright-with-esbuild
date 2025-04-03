@@ -1,0 +1,15 @@
+{
+	"type": "module",
+	"scripts": {
+		"install-browsers": "npx playwright install chromium",
+		"dev": "node src/index.mjs",
+		"build": "node esbuild.config.mjs",
+		"start": "node dist/index.mjs"
+	},
+	"dependencies": {
+		"playwright": "1.51.0"
+	},
+	"devDependencies": {
+		"esbuild": "^0.25.2"
+	}
+}
